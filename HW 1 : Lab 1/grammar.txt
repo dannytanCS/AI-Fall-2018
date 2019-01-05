@@ -1,0 +1,13 @@
+Grammar
+S -> Noun VP [1.000000]
+VP -> Modal Verb [0.600000]
+VP -> Verb Noun [0.400000]
+
+Lexicon
+Modal -> can [1.000000]
+Noun -> can [0.142857]
+Noun -> fish [0.428571]
+Noun -> people [0.428571]
+Verb -> can [0.200000]
+Verb -> fish [0.200000]
+Verb -> people [0.600000]

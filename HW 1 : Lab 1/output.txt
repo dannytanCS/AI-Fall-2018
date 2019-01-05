@@ -1,0 +1,91 @@
+A. Fish swim in streams
+
+Most Probable:
+S
+   Noun fish
+   VPWithPPList
+      Verb swim
+      PP
+         Prep in
+         Noun streams
+Probability = 2.16e-05
+
+No Second Most Probable
+
+B. Fish in streams swim
+
+Most Probable:
+S
+   NP
+      Noun fish
+      PP
+         Prep in
+         Noun streams
+   Verb swim
+Probability = 0.0001152
+
+No Second Most Probable
+
+C. Amy ate fish for dinner
+
+Most Probable:
+S
+   Noun amy
+   VerbAndObject
+      Verb ate
+      NP
+         Noun fish
+         PP
+            Prep for
+            Noun dinner
+Probability = 0.0001008
+
+Second Most Probable:
+S
+   Noun amy
+   VPWithPPList
+      VerbAndObject
+         Verb ate
+         Noun fish
+      PP
+         Prep for
+         Noun dinner
+Probability = 1.68e-05
+
+D. Amy ate fish for dinner on Tuesday
+
+Most Probable:
+S
+   Noun amy
+   VerbAndObject
+      Verb ate
+      NP
+         Noun fish
+         PP
+            Prep for
+            NP
+               Noun dinner
+               PP
+                  Prep on
+                  Noun tuesday
+Probability = 1.29024e-06
+
+Second Most Probable:
+S
+   Noun amy
+   VPWithPPList
+      VerbAndObject
+         Verb ate
+         Noun fish
+      PP
+         Prep for
+         NP
+            Noun dinner
+            PP
+               Prep on
+               Noun tuesday
+Probability = 3.2256e-07
+
+E. Amy ate for 
+
+This sentence cannot be parsed

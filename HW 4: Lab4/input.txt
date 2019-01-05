@@ -1,0 +1,16 @@
+Grammar
+NP -> Noun Noun [0.333333]
+S -> Noun VP [0.625000]
+S -> Noun Verb [0.125000]
+VP -> Verb NP [0.200000]
+VP -> Verb Noun [0.800000]
+
+Lexicon
+Noun -> bark [0.250000]
+Noun -> dogs [0.375000]
+Noun -> tail [0.312500]
+Noun -> wag [0.062500]
+Verb -> bark [0.375000]
+Verb -> dogs [0.250000]
+Verb -> tail [0.125000]
+Verb -> wag [0.250000]
